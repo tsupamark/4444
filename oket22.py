@@ -6,10 +6,10 @@ from telethon import TelegramClient, events
 from telethon.sessions import StringSession
 
 # Получаем данные из переменных окружения
-api_id = int(os.getenv('API_ID'))
-api_hash = os.getenv('API_HASH')
-bot_token = os.getenv('BOT_TOKEN')
-string_session = os.getenv('STRING_SESSION')
+api_id = int(os.getenv('24682981'))
+api_hash = os.getenv('6e1838e609c9d9248e5f84092c3b1837')
+bot_token = os.getenv('8098121171:AAGcumK5w_5PAn6Pk-LNafIWSiSstaJdZeA')
+string_session = os.getenv('1ApWapzMBuwnN8RQtz19WW_rXksDanzyYyRMuyNKl1hoSinAAbmVZ2UH6FelvGJEFeye5Eemml5yRRsBx_cOqZoIafKEukA-Bl5lv3HgiU-u6WnHssuWsViFWheuGAkigh2aEFL1DddUFeYgi4R7zGPnYGza_4Sec_lIGec5PT8dhN49ODK3uhSDleeNo3uvC_57oKzMvLE3Qf8Nx6PLL6h2_-_0uaQ2QMdNJBQ8DCRXQDRHl_YqnuF5AcNYDemOhhfZ-hhIEA7ZD5nhN1KfTihVtvx7ugl4rhKKQrmihk697zsj1U1r6UuioDrQR0SkY0rnZKrI0miszCQcAEok_A4jlu4noGYE=')
 
 # ⏱️ Задержки
 delay_between_messages = 15
